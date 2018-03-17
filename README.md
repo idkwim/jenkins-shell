@@ -11,10 +11,8 @@
 I have created 2 scripts for hacking jenkins in much easier way.
 
 ### Hacking jenkins involves 2 steps:
-1. Find the vulnerable jenkin URLs
-  a. Execute **shodan.php** to get the list of all URLs and on which user the jenkins is running
-2. Executing shell commands without writing your own exploits
-  a. Execute **jenkins-cli.php** to run shell commands on the jenkins server
+1. Execute **shodan.php** to get the list of all vulnerable jenkins URLs and on which user the jenkins is running
+2. To execute shell commands on jenkins server, run **jenkins-cli.php**
 
 ## Screenshots
 
