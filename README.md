@@ -16,6 +16,10 @@ I have created 2 scripts for hacking jenkins in much easier way.
 
 ### Note : To get the shell, jenkins has to be running on linux server
 
+## Screenrecording
+
+[![asciicast](https://asciinema.org/a/170411.png)](https://asciinema.org/a/170411)
+
 ## Screenshots
 
 ### Script 1
