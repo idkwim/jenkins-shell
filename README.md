@@ -1,11 +1,11 @@
 # Hacking Jenkins using Shodan API
 
-Requirements:
+## Requirements:
 1. PHP
 2. Shodan API
 3. PHP Curl
 
-Jenkins hacking automation using shodan API
+## Jenkins hacking automation using shodan API
 
 I have created 2 scripts for hacking jenkins in much easier way.
 
@@ -13,13 +13,13 @@ I have created 2 scripts for hacking jenkins in much easier way.
 
 2nd script will give you a shell like environment, so you don't need write exploits for jenkins each time you want to execute a shell command.
 
-Screenshots:
+## Screenshots
 
-### Script 1 :
+### Script 1
 
 ![Script 1](https://image.prntscr.com/image/pa_Z62uWQh_5W-k5BV0enQ.png)
 
-### Script 2 : 
+### Script 2
 
 ![Script 2](https://image.prntscr.com/image/x7FnAGuGQfSSy7Kgp87W1g.png)
 
