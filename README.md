@@ -1,17 +1,20 @@
 # Hacking Jenkins using Shodan API
 
 ## Requirements:
+0. Works on any platform
 1. PHP
 2. Shodan API
 3. PHP Curl
 
-## Jenkins hacking automation using shodan API
+## Usage
 
 I have created 2 scripts for hacking jenkins in much easier way.
 
-1st script is to get the list of jenkins servers from shodan and then check for vulnerable jenkins servers and find, on which user jenkins is running on. If it is root Cool , it's your day then! 30-40% jenkins servers run on roots, based on my analysis.
-
-2nd script will give you a shell like environment, so you don't need write exploits for jenkins each time you want to execute a shell command.
+### Hacking jenkins involves 2 steps:
+1. Find the vulnerable jenkin URLs
+  a. Execute **shodan.php** to get the list of all URLs and on which user the jenkins is running
+2. Executing shell commands without writing your own exploits
+  a. Execute **jenkins-cli.php** to run shell commands on the jenkins server
 
 ## Screenshots
 
@@ -22,11 +25,3 @@ I have created 2 scripts for hacking jenkins in much easier way.
 ### Script 2
 
 ![Script 2](https://image.prntscr.com/image/x7FnAGuGQfSSy7Kgp87W1g.png)
-
-### Files:
-
-Script1 : https://github.com/joesmithjaffa/jenkins...shodan.php
-
-Script2 : https://github.com/joesmithjaffa/jenkins...ns-cli.php
-
-Using these scripts, you can hack 1000s of jenkins servers without even need to write any exploits.
