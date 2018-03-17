@@ -1,6 +1,9 @@
-# jenkins-shell
+# Hacking Jenkins using Shodan API
 
-## Jenkins Hacking using Shodan API
+Requirements:
+1. PHP
+2. Shodan API
+3. PHP Curl
 
 Jenkins hacking automation using shodan API
 
