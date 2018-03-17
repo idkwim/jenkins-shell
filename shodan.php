@@ -3,6 +3,14 @@
 require 'jenkins.php';
 require 'simple_html_dom.php';
 
+if (!function_exists('curl_init')) {
+    echo "PHP curl extension is not enabled...\n";
+    echo "Windows : https://www.google.co.in/search?q=how+to+enable+php+curl+in+windows\n";
+    echo "Lnux : https://www.google.co.in/search?q=how+to+enable+php+curl+in+linux\n";
+    echo "MacOS : https://www.google.co.in/search?q=how+to+enable+php+curl+in+mac\n";
+    exit;
+}
+
 $key = "API_KEY";
 
 $q = urlencode("x-jenkins 200");
